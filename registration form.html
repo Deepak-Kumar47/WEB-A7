@@ -12,7 +12,7 @@
         #box{
             width: 600px;
             height: 900px;
-            background-color: red;
+            background-color: rgb(228, 219, 219);
             margin: 0px;
             padding:20px 20px;
             box-sizing: border-box;
@@ -25,11 +25,15 @@
         <form>
             <div>
                 <label>Your Name</label>
-                <input type="name" placeholder="Enter your name"
+                <input type="name" placeholder="Enter your name">
             </div>
             <div>
                 <label>Your email :</label>
                 <input type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label>Password :</label>
+                <input type="password" placeholder="Enter your password" minlength="8" maxlength="20" pattern="!#$#%$$^&*^*(21343557{}|/.,';[]")title="Password must be 8-20 characters long"required>
             </div>
             <div>
                 <label>Your Phone no :</label>
@@ -67,8 +71,17 @@
                 </select>
             </div>
             <div>
+                <label>Your Hobbies</label>
+                <input type="checkbox"name="hobbies"value="reading"/>
+                <label>Reading</label>
+                <input type="checkbox"name="hobbies"value="singing"/>
+                <label>Singing</label>
+                <input type="checkbox"name="hobbies"value="sports"/>
+                <label>Sports</label>
+            </div>
+            <div>
                 <label>Your Address :</label>
-                <textarea placeorder="Enter your address"cols="20"rows="5"></textarea>
+                <textarea placeorder="Enter your address" cols="20" rows="5"></textarea>
             </div>
             <div>
                 <input type="submit" value="Submit"/>
