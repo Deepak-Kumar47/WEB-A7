@@ -1,0 +1,17 @@
+header{
+    background-color: aqua;
+}
+#flex{
+    background-color: black;
+    color:darkgoldenrod;
+    text-align: center;
+}
+.restro{
+    width: 1350px;
+    height: 500px;
+
+}nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
