@@ -1,0 +1,46 @@
+h1 {
+    background-color: rgb(255, 0, 174);
+    font-style: italic;
+}
+
+h2 {
+    background-color: rgb(255, 0, 174);
+    font-style: italic;
+}
+
+h3 {
+    background-color: rgb(255, 0, 174);
+    font-style: italic;
+}
+
+h4 {
+    background-color: rgb(255, 0, 174);
+    font-style: italic;
+}
+
+p {
+    font-style: oblique;
+}
+
+ol {
+    font-style: oblique;
+}div{
+    margin: 50px;
+    padding: 10px;
+
+}header{
+    background-color:rgba(8, 8, 8, 0.955)
+}
+.box{
+    padding: 10px;
+    border-radius: 20px;
+    border-color:aqua;
+    background-color: rgb(173, 32, 32); 
+}
+nav{
+    display: flex;
+    padding: 10px;
+    /* background-color: rgb(19, 208, 12); */
+    justify-content: space-around;
+    /* border-top: 3px solid black; */
+}

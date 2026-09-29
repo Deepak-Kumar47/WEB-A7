@@ -7,16 +7,24 @@
     <style>
         *,html{
             margin: o;
-            padding: 0;
+            padding: 100 200;
+            /* background-color: black; */
         }
         #box{
             width: 600px;
             height: 900px;
-            background-color: rgb(228, 219, 219);
-            margin: 0px;
-            padding:20px 20px;
+            background-color: rgb(209, 29, 29);
+            margin: auto;
+            padding: 40px 20px ;
             box-sizing: border-box;
 
+        }div{
+            margin-bottom: 20px;
+        }label{
+            color: burlywood
+        }
+        input{
+           color: rgb(21, 0, 255);
         }
     </style>
 </head>
@@ -25,7 +33,7 @@
         <form>
             <div>
                 <label>Your Name</label>
-                <input type="name" placeholder="Enter your name">
+                <input type="name" placeholder="Enter your name" >
             </div>
             <div>
                 <label>Your email :</label>
@@ -83,10 +91,16 @@
                 <label>Your Address :</label>
                 <textarea placeorder="Enter your address" cols="20" rows="5"></textarea>
             </div>
-            <div>
-                <input type="submit" value="Submit"/>
+              <!-- <div>
+                 <input type="submit" value="Submit"/>  
                 <input type="reset" value="Reset"/>
-            </div>
+            </div>  -->
+             
+            <button><A href="login.html">Submit</A></button><div>
+                <!-- <input type="submit" value="Submit"/>  -->
+                <input type="reset" value="Reset"/>
+            </div> 
+            
         </form>
     </div>
     
