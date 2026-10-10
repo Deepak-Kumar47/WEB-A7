@@ -1,0 +1,26 @@
+#flex{
+    background-color: black;
+    color:darkgoldenrod;
+    font-style: italic;
+    /* text-align:; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+} 
+h1{
+    text-align: left;
+}
+.life{
+    width: 1385px;
+    height: 500px;
+}
+footer{
+    text-align: center;
+}
+.box{
+    padding: 10px;
+    background-color: brown;
+    border-radius: 20px;
+}
